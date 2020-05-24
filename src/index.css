@@ -1,16 +1,12 @@
 @font-face {
-  font-family: "FiraSans";
-  src: local("FiraSans"), url(./fonts/FiraSans-Regular.ttf) format("truetype");
+  font-family: "BigBlue";
+  src: local("BigBlue"), url(./fonts/BigBlue.ttf) format("truetype");
 }
 
 body {
   margin: 0;
-  font-family: FiraSans, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: BigBlue, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: FiraSans, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
