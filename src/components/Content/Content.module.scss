@@ -1,0 +1,27 @@
+.border {
+  flex: 1 1 82%;
+  height: 95vh;
+  margin: 0 10px;
+  border: 1px solid #41ead4;
+  position: relative;
+}
+
+.root {
+  margin: 5px;
+  border: 1px solid #f1faee;
+  height: 98.7%;
+  color: #f1faee;
+}
+
+.subcontent {
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.title {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  background: #172b4d;
+  padding: 0 5px;
+}

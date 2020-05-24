@@ -1,0 +1,30 @@
+.border {
+  height: 95vh;
+  margin-left: 10px;
+  position: relative;
+  flex: 1 1 15%;
+  border: 1px solid #41ead4;
+}
+
+.root {
+  margin: 5px;
+  border: 1px solid #f1faee;
+  height: 98.7%;
+}
+
+.border:before {
+  content: "menu";
+  position: absolute;
+  top: -18px;
+  left: 30%;
+  z-index: 2;
+  padding: 0 5px;
+  background: #172b4d;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding: 0 20px;
+}

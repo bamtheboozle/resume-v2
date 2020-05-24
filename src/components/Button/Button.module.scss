@@ -1,0 +1,17 @@
+.root {
+  outline: none;
+  background: none;
+  border: none;
+  font-family: FiraSans;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  text-align: left;
+  padding: 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.active {
+  background: #ccc;
+}

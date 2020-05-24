@@ -1,0 +1,70 @@
+.root {
+  font-size: 18px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.highlightedSpan {
+  color: #ff729f;
+  font-weight: bold;
+}
+
+.deepLearning {
+  li {
+    list-style: none;
+    padding: 3px 0;
+  }
+
+  li:before {
+    content: "\2022";
+    color: #ff729f;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+}
+
+.intro {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.subIntro {
+  margin-top: 20px;
+}
+
+.links {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+
+  .providers {
+    font-weight: bold;
+
+    div {
+      margin: 3px 0;
+    }
+  }
+
+  .values {
+    margin-left: 20px;
+
+    div {
+      margin: 3px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #ff729f;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.terminal {
+  background-color: #172b4d;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  flex: 0 0 82%;
+  height: 95vh;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+}
