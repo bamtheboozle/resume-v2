@@ -16,7 +16,7 @@ const App = () => {
     { title: PAGES.BACKGROUND, index: 1 },
     { title: PAGES.SKILLS, index: 2 },
   ];
-  const [activePage, setActivePage] = useState(pagesArray[0]);
+  const [activePage, setActivePage] = useState(pagesArray[1]);
 
   useEffect(() => {
     const handleKeyPress = (e) => {
@@ -41,7 +41,11 @@ const App = () => {
   return (
     <div className={styles.app}>
       <div className={styles.terminal}>
-        <Menu activePage={activePage} pagesArray={pagesArray} handlePageChange={setActivePage} />
+        <Menu
+          activePage={activePage}
+          pagesArray={pagesArray}
+          handlePageChange={setActivePage}
+        />
         <Content activePage={activePage.title} />
       </div>
     </div>
